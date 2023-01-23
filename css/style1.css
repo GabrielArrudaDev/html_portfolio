@@ -61,7 +61,7 @@ body{
 
 main{
     margin: auto;
-    width: 80%;
+    width: 90%;
 }
 
 .section_content{
@@ -93,9 +93,10 @@ main{
     color: white;
     margin: 0;
     text-align: center;
-    padding: 15px ;
+    padding: 15px;
     letter-spacing: 1px;
     text-transform: uppercase;
+    overflow-wrap: break-word;
 }
 
 .header_content{
