@@ -6,7 +6,7 @@ body{
 
 #principal{
     width: 90%;
-    margin: 50px auto;  
+    margin: 50px auto; 
 }
 
 .header_top{
@@ -16,7 +16,7 @@ body{
 }
 
 .logotipo{
-    margin: 1% 0 0 200px;
+    margin: 1% 0 0 1%;
 }
 
 .header_nav{
@@ -26,10 +26,12 @@ body{
     background-color: #162028;
     height: 100%;
 }
+
 .header_nav ul{
     margin: 0;
     padding: 0;
 }
+
 .header_nav li{
     list-style: none;
     display: inline-block;
@@ -63,6 +65,7 @@ body{
     font-size: 36px;
     color: #252525;
 }
+
 .portfolio p{
     font-size: 16px;
     line-height: 2;
@@ -90,7 +93,7 @@ body{
 
 .about{
     background-color: #003d52;
-    padding:150px;
+    padding:125px 150px 150px 150px;
     color: white;
     background-image: url(../imagens/bg_detalhe.png);
     background-repeat: no-repeat;
@@ -126,6 +129,7 @@ body{
     height: 450px;
     margin-top: 15px;
 }
+
 .maps iframe{
     width: 100%;
 }
