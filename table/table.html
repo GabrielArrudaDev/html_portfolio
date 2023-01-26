@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            width: 80%;
+            margin: auto;
+            background-color: beige;
+        }
+        th{
+            background-color: #bfc361;
+            border: 2px solid chocolate;
+            padding: 2%;
+        }
+        td{
+            text-align: center;
+            border: 1px solid black;
+            padding: 2%;
+        }
+        caption{
+            border: 1px solid blue;
+            background-color: antiquewhite;   
+            text-align: center; 
+            font-size: larger;       
+        }
+
+        div{
+            padding: 2%;
+            margin: 50px 2%;
+            border: 1px solid black;
+            width: 20%;
+            float: left;
+            height: 100px;
+            font-family: sans-serif;
+            font-size: 18px;
+        }
+        .d1{
+            overflow: visible;
+        }
+        .d2{
+            overflow: hidden;
+        }
+        .d3{
+            overflow: scroll;
+        }
+        .d4{
+            overflow: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <p>
+        table = cria a tabela <br>
+        tr = cria uma linha <br>
+        tr rowspan="2" : faz a linha ser duas linhas <br>
+        td = cria uma coluna <br>
+        td colspan="2" : faz a coluna ser duas colunas <br>
+    </p>
+
+    <table>
+        <caption>Tabela de preços de cursos</caption>
+        <thead>
+            <tr>
+                <th>Area</th>
+                <th>Curso</th>
+                <th>Investimento</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="3">Valores sujeitos a alterações sem prévio aviso</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td rowspan="3">Design</td>
+                <td>InDesign</td>
+                <td>R$ 1.000,00</td>
+            </tr>
+            <tr>
+                <td>InDesign</td>
+                <td>R$ 1.000,00</td>
+            </tr>
+            <tr>
+                <td>InDesign</td>
+                <td>R$ 1.000,00</td>
+            </tr>
+            <tr>
+                <td rowspan="4">Development</td>
+                <td>InDesign</td>
+                <td>R$ 1.000,00</td>
+            </tr>
+            <tr>
+                <td>InDesign</td>
+                <td>R$ 1.000,00</td>
+            </tr>
+            <tr>
+                <td>InDesign</td>
+                <td>R$ 1.000,00</td>
+            </tr>
+            <tr>
+                <td>InDesign</td>
+                <td>R$ 1.000,00</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="d1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat cupiditate tenetur obcaecati dicta illum, nostrum doloremque assumenda inventore ipsa voluptas optio magni aliquid suscipit atque sequi nihil exercitationem omnis ducimus!</div>
+
+    <div class="d2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, ea expedita impedit consectetur dicta mollitia facilis excepturi ratione nisi culpa animi corporis voluptatum iste, repudiandae non cumque, tempore veritatis alias?</div>
+
+    <div class="d3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet est nisi ducimus magnam maiores commodi nihil, ipsam quos quam similique soluta, incidunt in velit voluptas impedit necessitatibus numquam quia eius!</div>
+    
+    <div class="d4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi, nostrum quos reprehenderit, error, maxime et officia ex sed ut reiciendis iure. Saepe temporibus provident fugiat corrupti, inventore at corporis dolore!</div>
+
+</body>
+</html>
