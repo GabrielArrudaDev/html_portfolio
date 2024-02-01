@@ -1,0 +1,141 @@
+
+body {
+    background-color: rgb(20, 20, 20);
+    font-family: sans-serif;
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header{
+    padding: 0px 30px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    width: 1200px;
+}
+
+.title__header{
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    margin: 0%;
+    padding: 0%;
+}
+
+.botoes__header{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0%;
+    padding: 0%;
+}
+
+.ul-botoes__header{
+    display: flex;
+    gap: 10px;
+    list-style: none; 
+}
+
+.ul-botoes__header a{
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+.ul-botoes__header a:hover{
+    color: rgb(0, 0, 0);
+    background-color: yellow;
+}
+
+/* ------------------------------------------------ */
+
+.main-title {
+    display: flex;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-top: 100px;
+    color: #ffffff;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.list-item{
+    background-color:rgba(30, 36, 72, 0.496);
+    width: 250px;
+    height: 350px;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+
+.list-item-title{
+    color: white;
+    margin: 0%;
+    padding: 0%;
+    height: 40px;
+    text-transform: uppercase;
+    border-bottom: 2px solid yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+
+}
+
+.list-item-valor{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+}
+.span{
+    font-weight: normal;
+    font-size: 20px;
+    color: white;
+}
+
+.list-item-info ul{
+    display: flex;
+    padding: 0px 0px 0px 5px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.list-item-info li{
+    color:#e3e3e3;
+    list-style-position: inside;
+}
+
+.list-item-action a{
+    background-color: yellow;
+    justify-content: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    display: flex;
+    padding: 16px;  
+    margin-top: 60px;
+    border-radius: 10px;
+}
+
